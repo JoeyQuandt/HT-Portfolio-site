@@ -10,6 +10,7 @@ $text: 2.5rem;
 $text-color: #637282;
 $gray-color: #FAFAFA;
 $blue-color: #2F5BE7;
+$yellow-color: #FBBC12;
 $green-color: #189E59;
 $red-color: #E1382B;
 
@@ -32,4 +33,26 @@ $red-color: #E1382B;
 /*Import stylen*/
 @import "globals";
 @import "hero-nav";
+@import "main-footer";
 
+/*Responsive*/
+@media screen and (max-width: 960px) {
+    /*Algemeen*/
+    html{
+        font-size: 50%;
+    }
+    /*Navbar Hero*/
+    .logo{
+        @include flex(center,center,column);
+    }
+    #hero{
+        flex-direction: column-reverse;
+    }
+    .hero-image{
+        flex: 1 1 20rem;
+        margin: 2rem 0;
+    }
+    .hero-text{
+        flex: 8 1 20rem;
+    }
+}

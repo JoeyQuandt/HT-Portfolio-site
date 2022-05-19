@@ -29,4 +29,29 @@
     margin: auto;
     width: 80%;
     @include flex(center,center,row);
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    flex: 1 1 20rem;
+    p{
+        margin: 3.5rem 0;
+        .red{
+            color: $red-color;
+        }
+        .green{
+            color: $green-color;
+        }
+        .yellow{
+            color: $yellow-color;
+        }
+    }
+}
+
+.hero-image{
+    margin-left: 5rem;
+    flex: 1 1 40rem;
+    img{
+        width: 100%;
+    }
 }
