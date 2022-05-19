@@ -1,0 +1,35 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*Globals*/
+$header1: 8rem;
+$header2: 4rem;
+$header3: 3rem;
+$text: 2.5rem;
+/*Colors*/
+$text-color: #637282;
+$gray-color: #FAFAFA;
+$blue-color: #2F5BE7;
+$green-color: #189E59;
+$red-color: #E1382B;
+
+/*Functions*/
+@mixin flex($justify,$align,$direction){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*Import stylen*/
+@import "globals";
+@import "hero-nav";
+

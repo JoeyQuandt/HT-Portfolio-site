@@ -1,0 +1,32 @@
+/*Navigation Bar*/
+.navigation-bar{
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    @include flex(center,center,row);
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    @include flex(space-around,	center,row);
+    flex: 1 1 20rem;
+    li{
+        margin: 2rem;
+    }
+    a{
+        color: $text-color;
+        font-size: 2rem;
+    }
+}
+
+.logo{
+    flex: 2 1 20rem;
+}
+
+/*Hero Section*/
+#hero{
+    height: 75vh;
+    margin: auto;
+    width: 80%;
+    @include flex(center,center,row);
+}

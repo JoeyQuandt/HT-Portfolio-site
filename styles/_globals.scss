@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+h1{
+    font-size: $header1;
+    font-weight: bold;
+}
+
+h2{
+    font-size: $header2;
+}
+
+h3{
+    font-size: $header3;
+}
+
+p{
+    color: $text-color;
+}
+
+p,li,a{
+    font-size: $text;
+    font-weight: 400;
+}
+
+li,a,button{
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
