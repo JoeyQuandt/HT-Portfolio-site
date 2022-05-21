@@ -1,5 +1,5 @@
 .overview-cards{
-    height: 125vh;
+    height: 200vh;
     width: 80%;
     margin: auto;
     @include flex(space-around,center,row);
@@ -8,6 +8,7 @@
 
 .card{
     @include flex(center,center,column);
+    margin: auto;
     text-align: center;
     width: 375px;
     height: 500px;

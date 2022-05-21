@@ -41,10 +41,6 @@ $red-color: #E1382B;
     html{
         font-size: 50%;
     }
-    /*Navbar Hero*/
-    .logo{
-        @include flex(center,center,column);
-    }
     #hero{
         flex-direction: column-reverse;
     }
