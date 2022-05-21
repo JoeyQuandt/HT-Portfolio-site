@@ -82,10 +82,10 @@ li, a, button {
 
 /*Navbar*/
 header {
+  background: white;
   width: 100%;
   position: fixed;
   top: 0px;
-  padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,9 +162,25 @@ header {
 
 /*Hero Section*/
 #hero {
-  height: 75vh;
+  height: 100vh;
   margin: auto;
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,8 +194,6 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .hero-text {
@@ -278,10 +292,28 @@ header {
   opacity: 0;
 }
 
-.overview-cards {
-  height: 200vh;
+#overview-cards {
+  height: 135vh;
   width: 80%;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-row1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,8 +326,6 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .card {
@@ -312,7 +342,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: auto;
+  margin: 5rem;
   text-align: center;
   width: 375px;
   height: 500px;

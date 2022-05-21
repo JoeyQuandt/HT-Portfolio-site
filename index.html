@@ -1,103 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="icons/logo_zonder_tekst.svg">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icons/logo_zonder_tekst.svg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>HT-Portfolio Site</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navigation-bar">
-            <div class="logo">
-                <img src="icons/logo.svg" alt="logo"/>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Computer Vision</a></li>
-                <li><a href="#">Virtual Environments</a></li>
-                <li><a href="#">Articifial Creatures</a></li>
-                <li><a href="#">Wearable Technology</a></li>
-                <li><a href="#">Workshops HT</a></li>
-                <li><a href="#">Excursion/ Lecture</a></li>
-                <li><a href="#">Lab Weeks</a></li>
-            </ul>
-            <div class="burger">
-                <span class="line1"></span>
-                <span class="line2"></span>
-                <span class="line3"></span>
-            </div>
-        </nav>
+      <nav class="navigation-bar">
+        <div class="logo">
+          <img src="icons/logo.svg" alt="logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Computer Vision</a></li>
+          <li>
+            <a href="pages/virtual-environments.html">Virtual Environments</a>
+          </li>
+          <li><a href="#">Articifial Creatures</a></li>
+          <li><a href="#">Wearable Technology</a></li>
+          <li><a href="#">Workshops HT</a></li>
+          <li><a href="#">Excursion/ Lecture</a></li>
+          <li><a href="#">Lab Weeks</a></li>
+        </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+      </nav>
     </header>
     <main>
-        <section id="hero">
-            <div class="hero-text">
-                <h1>
-                    HCI Technologies
-                    Portfolio
-                </h1>
-                <p>
-                    Hier kan je al mijn <span class="red">opdrachten</span> zien die ik gedaan hebt voor het vak <span class="green">HCI</span>
-                    Klik op de <span class="yellow">button</span> voor een overzicht
-                </p>
-                <a class="button" href="#">Overview</a>
+      <section id="hero">
+        <div class="hero-content" data-aos="fade-up">
+          <div class="hero-text">
+            <h1>HCI Technologies Portfolio</h1>
+            <p>
+              Hier kan je al mijn <span class="red">opdrachten</span> zien die
+              ik gedaan hebt voor het vak <span class="green">HCI</span> Klik op
+              de <span class="yellow">button</span> voor een overzicht
+            </p>
+            <a class="button" href="#overview-cards">Overview</a>
+          </div>
+          <div class="hero-image">
+            <img src="icons/hero.svg" alt="hero" />
+          </div>
+        </div>
+      </section>
+      <section id="overview-cards">
+        <div class="card-row1" data-aos="fade-left">
+          <div class="card">
+            <div class="info-icon">
+              <img src="icons/computer.svg" alt="computer" />
+              <h3>Computer Vision</h3>
             </div>
-            <div class="hero-image">
-                <img src="icons/hero.svg" alt="hero"/>
+            <p>
+              In Playful Interaction we will explore interfaces with ludic,
+              playful objectives, for both serious and less serious purposes,
+              using often unconventional input and output devices.
+            </p>
+            <a class="button-link"
+              >More information <img src="icons/link.svg"
+            /></a>
+          </div>
+          <div class="card">
+            <div class="info-icon">
+              <img src="icons/virtualview.svg" alt="computer" />
+              <h3>Virtual Environments</h3>
             </div>
-        </section>
-        <section class="overview-cards">
-            <div class="card">
-                <div class="info-icon">
-                    <img src="icons/computer.svg" alt="computer"/>
-                    <h3>Computer Vision</h3>
-                </div>
-                <p>
-                    In Playful Interaction we will explore interfaces with ludic, playful objectives, for both
-                    serious and less serious purposes, using often unconventional input and output
-                    devices.
-                </p>
-                <a class="button-link">More information <img src="icons/link.svg"/></a>
+            <p>
+              Virtual Reality is an imaginary world, a computer simulation. From
+              a system, the brain is fed with 'virtual sensory data'. Sensory
+              data such as seeing, hearing, smelling, tasting and feeling
+            </p>
+            <a class="button-link"
+              >More information <img src="icons/link.svg"
+            /></a>
+          </div>
+          <div class="card">
+            <div class="info-icon">
+              <img src="icons/robot.svg" alt="computer" />
+              <h3>Articifial Creatures</h3>
             </div>
-            <div class="card">
-                <div class="info-icon">
-                    <img src="icons/virtualview.svg" alt="computer"/>
-                    <h3>Virtual Environments</h3>
-                </div>
-                <p>
-                    Virtual Reality is an imaginary world, a computer simulation. From a system, the
-                        brain is fed with 'virtual sensory data'. Sensory data such as seeing, hearing,
-                        smelling, tasting and feeling
-                </p>
-                <a class="button-link">More information <img src="icons/link.svg"/></a>
+            <p>
+              Within this topic, we look at developments in robotics and what we
+              can expect in the near future. This involves systems and devices
+              that can show or recognize emotional / human / animal behaviour
+            </p>
+            <a class="button-link"
+              >More information <img src="icons/link.svg"
+            /></a>
+          </div>
+        </div>
+        <div class="card-row1" data-aos="fade-right">
+          <div class="card">
+            <div class="info-icon">
+              <img src="icons/computer.svg" alt="computer" />
+              <h3>Computer Vision</h3>
             </div>
-            <div class="card">
-                <div class="info-icon">
-                    <img src="icons/robot.svg" alt="computer"/>
-                    <h3>Articifial Creatures</h3>
-                </div>
-                <p>
-                    Within this topic, we look at developments in robotics and what we can expect in
-                        the near future. This involves systems and devices that can show or recognize
-                        emotional / human / animal behaviour
-                </p>
-                <a class="button-link">More information <img src="icons/link.svg"/></a>
+            <p>
+              In Playful Interaction we will explore interfaces with ludic,
+              playful objectives, for both serious and less serious purposes,
+              using often unconventional input and output devices.
+            </p>
+            <a class="button-link"
+              >More information <img src="icons/link.svg"
+            /></a>
+          </div>
+          <div class="card">
+            <div class="info-icon">
+              <img src="icons/virtualview.svg" alt="computer" />
+              <h3>Virtual Environments</h3>
             </div>
-        </section>
+            <p>
+              Virtual Reality is an imaginary world, a computer simulation. From
+              a system, the brain is fed with 'virtual sensory data'. Sensory
+              data such as seeing, hearing, smelling, tasting and feeling
+            </p>
+            <a class="button-link"
+              >More information <img src="icons/link.svg"
+            /></a>
+          </div>
+          <div class="card">
+            <div class="info-icon">
+              <img src="icons/robot.svg" alt="computer" />
+              <h3>Articifial Creatures</h3>
+            </div>
+            <p>
+              Within this topic, we look at developments in robotics and what we
+              can expect in the near future. This involves systems and devices
+              that can show or recognize emotional / human / animal behaviour
+            </p>
+            <a class="button-link"
+              >More information <img src="icons/link.svg"
+            /></a>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="footer-text">
-            <div class="footer-logo">
-                <img src="icons/logo.svg" alt="logo"/>
-            </div>
-            <p>© 2020 Joey Quandt | All rights reserved.</p>
+      <div class="footer-text">
+        <div class="footer-logo">
+          <img src="icons/logo.svg" alt="logo" />
         </div>
+        <p>© 2020 Joey Quandt | All rights reserved.</p>
+      </div>
     </footer>
 
-
-    <script src="main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>

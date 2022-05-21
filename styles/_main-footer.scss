@@ -1,33 +1,37 @@
-.overview-cards{
-    height: 200vh;
-    width: 80%;
-    margin: auto;
-    @include flex(space-around,center,row);
-    flex-wrap: wrap;
+#overview-cards {
+  height: 135vh;
+  width: 80%;
+  margin: auto;
+  @include flex(center, center, row);
+  flex-wrap: wrap;
 }
 
-.card{
-    @include flex(center,center,column);
-    margin: auto;
-    text-align: center;
-    width: 375px;
-    height: 500px;
-    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.26);
-    p{
-        padding: 2rem;
-    }
+.card-row1 {
+  @include flex(space-around, center, row);
 }
 
-footer{
-    height: 35vh;
-    background: $gray-color;
-    align-items: center;
-    @include flex(center,center,column);
-    .footer-logo{
-        @include flex(center,center,column);
-    }
-    p{
-        font-weight: bold;
-        margin: 2rem 0;
-    }
+.card {
+  @include flex(center, center, column);
+  margin: 5rem;
+  text-align: center;
+  width: 375px;
+  height: 500px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.26);
+  p {
+    padding: 2rem;
+  }
+}
+
+footer {
+  height: 35vh;
+  background: $gray-color;
+  align-items: center;
+  @include flex(center, center, column);
+  .footer-logo {
+    @include flex(center, center, column);
+  }
+  p {
+    font-weight: bold;
+    margin: 2rem 0;
+  }
 }

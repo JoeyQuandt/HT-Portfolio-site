@@ -1,3 +1,6 @@
+AOS.init({
+  duration: 1200,
+});
 
 /*Hamburger Section*/
 const nav = document.querySelector(".nav-links");
@@ -18,8 +21,8 @@ links.forEach((link) => {
 
 //Navigation Bar color change//
 window.addEventListener("scroll", function () {
-    let header = document.querySelector("header");
-    let windowPosition = window.scrollY > 0;
-  
-    header.classList.toggle("scrolling-active", windowPosition);
-  });
+  let header = document.querySelector("header");
+  let windowPosition = window.scrollY > 0;
+
+  header.classList.toggle("scrolling-active", windowPosition);
+});
