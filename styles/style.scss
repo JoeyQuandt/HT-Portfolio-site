@@ -34,6 +34,8 @@ $red-color: #E1382B;
 @import "globals";
 @import "hero-nav";
 @import "main-footer";
+@import "content-styling";
+@import "test";
 
 /*Responsive*/
 @media screen and (max-width: 960px) {
@@ -41,14 +43,10 @@ $red-color: #E1382B;
     html{
         font-size: 50%;
     }
-    #hero{
-        flex-direction: column-reverse;
+    .navigation-bar{
+        width: 90%;
     }
     .hero-image{
-        flex: 1 1 20rem;
-        margin: 2rem 0;
-    }
-    .hero-text{
-        flex: 8 1 20rem;
+        display: none;
     }
 }

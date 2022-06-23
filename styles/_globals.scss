@@ -42,6 +42,25 @@ li,a,button{
 }
 
 
+/*Veel gebruikte content*/
+.red {
+    color: $red-color;
+  }
+  .green {
+    color: $green-color;
+  }
+  .yellow {
+    color: $yellow-color;
+  }
+.white-space{
+    margin: 15rem 0;
+}
+.content-title{
+    text-align: center;
+    margin: 4rem;
+    padding: 5rem;
+}
+
 
 .button{
     box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.26);
@@ -70,3 +89,4 @@ li,a,button{
     background: #007BFF;
     cursor: pointer;
 }
+

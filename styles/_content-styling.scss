@@ -1,0 +1,85 @@
+/*===Assignments===*/
+.assignments{
+    margin: auto;
+    width: 80%;
+    height: 300vh;
+    display: flex;
+}
+
+.assignments-content{
+    @include flex(space-around,center,column);
+}
+
+/*Assignment*/
+.assignment{
+    @include flex(center,center,row);
+}
+
+.assignment-text{
+    flex: 1 1 20rem;
+    margin: 0 2rem;
+    p{
+        margin: 2rem 0;
+    }
+}
+.assignment-image{
+    background: url("../images/assignment.png");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    flex: 1 1 20rem;
+}
+
+.assignment-video{
+    height: 500px;
+    width: 100%;
+    flex: 1 1 20rem;
+    border: none;
+}
+
+/*===Research===*/
+#research{
+    height: 150vh;
+    background: $gray-color;
+
+}
+
+.research-content{
+    @include flex(space-around,center,row);
+    margin: auto;
+    width: 80%;
+}
+
+.research-container{
+    margin: 2rem;
+}
+
+.research-image{
+    background: url("../images/research.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+
+}
+
+.reflectie-content{
+    margin: auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 960px) {
+    /*===Assigments===*/
+    .assignments{
+        margin: auto;
+        width: 100%;
+    }
+    .assignment{
+        flex-direction: column;
+        .assignment-image{
+            flex: 2 1 40rem;
+        }
+    }
+}
