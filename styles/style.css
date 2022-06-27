@@ -417,7 +417,7 @@ footer p {
 .assignments {
   margin: auto;
   width: 80%;
-  height: 300vh;
+  height: 750vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,6 +477,39 @@ footer p {
           flex: 1 1 20rem;
 }
 
+.assignment-image-cp-1 {
+  background: url("../images/computer-vision/Portfolio assignment 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+}
+
+.assignment-image-cp-2 {
+  background: url("../images/computer-vision/experiment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+}
+
+.assignment-image-xr {
+  background: url("../images/aframe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+}
+
 .assignment-video {
   height: 500px;
   width: 100%;
@@ -488,7 +521,7 @@ footer p {
 
 /*===Research===*/
 #research {
-  height: 150vh;
+  height: 200vh;
   background: #FAFAFA;
 }
 
@@ -515,6 +548,46 @@ footer p {
 
 .research-image {
   background: url("../images/research.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.research-image-ex1 {
+  background: url("../images/selfie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.research-image-ex2 {
+  background: url("../images/exercusie1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.research-image-ex3 {
+  background: url("../images/exercusie2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.research-xr {
+  background: url("../images/ar-technology.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.research-image-cp1 {
+  background: url("../images/computer-vision/concept.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
